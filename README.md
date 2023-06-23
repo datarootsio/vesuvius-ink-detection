@@ -24,8 +24,8 @@ A variety of notebooks is provided in the [notebooks folder](notebooks). All of 
 ```
 pip install kaggle
 ```
-2. Go to your [kaggle account page](https://www.kaggle.com/settings/account)
-Click the "Create New Token" button
+2. Go to your [kaggle account page](https://www.kaggle.com/settings/account) and click the "Create New Token" button  
+![account](images/account.png)
 3. Move the downloaded "kaggle.json" to ~/.kaggle/kaggle.json
 4. Download the dataset
 ```
