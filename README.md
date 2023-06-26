@@ -1,11 +1,10 @@
 # The Vesuvius Ink detection Challenge 
 
-The ink detection challenge is a subproblem of the bigger [Vesuvius challenge.](https://scrollprize.org/) 
+The Ink Detection Challenge is a subproblem of the bigger [Vesuvius challenge.](https://scrollprize.org/), where a prize of $700k is offered to the first team able to read an unopened Herculaneum scroll that was carbonised duing the eruption of Mount Vesuvius through 3D X-ray scans. 
 
-- Goal Vesuvius challenge: Read an unopened Herculaneum scroll.
-- Goal ink detection challenge: Read ink from 3D x-rays.
+The Ink Detection Challenge focuses on the detection of ink, based on 3D X-ray scans. Trainign data for Ink detection training is provided from 3 broken-off fragments of scrolls that where opened physically. As ground truth data, labels where annotated manually for each pixel. Because the evaluation of ink detection models more measurable, a [Kaggle competition](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/overview), was laucnhed for this.
 
-More information can be found on the notion page: 
+More information is available on the notion page:
 https://www.notion.so/dataroots/Ink-detection-Challenge-1c3a4b5030244ef99c52dd68a25b43b2
 
 
