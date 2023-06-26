@@ -1,4 +1,0 @@
-name: kaggle
-channels:
-  - defaults
-prefix: /Users/adriendebray/opt/anaconda3/envs/kaggle
