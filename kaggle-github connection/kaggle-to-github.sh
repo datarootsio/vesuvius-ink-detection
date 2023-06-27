@@ -11,7 +11,8 @@ echo "Repo: " $REPO
 echo "Kaggle Username: " $KAGGLE_USERNAME
 echo "Github Username: " $GITHUB_USERNAME
 cd ../
-if [ -d $REPO ]   # for file "if [-f /home/rama/file]" 
+pwd
+if [ -d $REPO ]   
 then 
     echo "Repo already exist"
 else
@@ -20,7 +21,7 @@ else
 fi
 echo "----Downloading Kernel to github repo----"
 #kaggle kernels pull -m $KAGGLE_USERNAME/$KERNEL -p ./$REPO 
-kaggle kernels pull adriendebray/resnet18d-inference -p ./$REPO/notebooks
+kaggle kernels pull adriendebray/resnet18d-inference -p ./notebooks
 #echo "----Downloading dataset to github repo----"
 #kaggle datasets download -d adriendebray/resnet18 -p ./$REPO/kaggle/input/$KERNEL/ --force  --unzip 
 #result=$(kaggle datasets download $DATASET -p ./$REPO/kaggle/input/$KERNEL/ --force  --unzip )
