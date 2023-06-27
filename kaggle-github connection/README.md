@@ -1,9 +1,8 @@
 # kaggle-to-github
-What the kaggle-to-github.sh does:
-1. Clones this repo if this has not been done yet.
-2. Pushes specified kernels and datasets from your kaggle account to this github repository.
+The kaggle-to-github.sh script allows you to download kaggle kernels to the dataroots.io organization.\ 
+If you want to push kaggle kernels to your private repository, you can do this directly in your kaggle notebook ([here](https://www.kaggle.com/product-feedback/295170)) 
 
-
+How to use the script:
 
 ``` bash kaggle-to-github.sh {Kaggle Kenral} {Kaggle Dataset} {Github Repo} ```
 
