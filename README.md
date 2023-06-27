@@ -51,6 +51,6 @@ This notebooks attempts to flatten the papyrus fragments from the [vesuvius-chal
 The notebook use to train 
 
 
-### Resnet18d inference ([kaggle notebook](TODO))
+### Resnet18d inference ([kaggle notebook](https://www.kaggle.com/code/adriendebray/resnet18d-inference))
 
 This notebook is used to perform inference on any data in the /kaggle/input/vesuvius-challenge-ink-detection/test folder and generate a RLE prediction. This can be used to submit a pretrained model.
