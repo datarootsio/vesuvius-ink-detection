@@ -24,7 +24,8 @@ https://www.notion.so/dataroots/Ink-detection-Challenge-1c3a4b5030244ef99c52dd68
 A variety of notebooks is provided in the [notebooks folder](notebooks). All of these are adapted from Kaggle notebooks (links to the Kaggle notebooks are provided as well). The easiest way to run these is to run them on Kaggle. If you want to run them either locally or any other remote resource you will first have to set up a compatible environment and download the used datasets.
 (Kaggle docker images are available [here](https://github.com/Kaggle/docker-python) but are very bulky (~45GB) uncompressed and are not compatible with Apple silicon so creating your own python venv might be more advisable, especially for a local setup)
 
-### Downloading datasets  <span style="color:red">Not sure what this is usefull for ?</span>.
+### Downloading datasets  
+<span style="color:red">  #### Not sure what this is usefull for ?</span>.
 1. Install the kaggle API
 ```
 pip install kaggle
