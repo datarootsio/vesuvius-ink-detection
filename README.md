@@ -9,16 +9,13 @@ https://www.notion.so/dataroots/Ink-detection-Challenge-1c3a4b5030244ef99c52dd68
 
 
 
-## Structure
-
-### Folders <div id="folders"/>
+## Structure <div id="structure"/>
 
 [`images`](https://github.com/datarootsio/vesuvius-ink-detection/tree/main/images): Different images used in the README.md.
 
 [`notebooks`](https://github.com/datarootsio/vesuvius-ink-detection/tree/main/notebooks): This folder contains the different notebooks we created for the Ink detection challenge. They are designed to be simple and comprehensible to get used to the ink detection problem and the solution we propose. Feel free to fork the repo and modify some notebooks if you want to try your own solution!
 
 [`kaggle-github connection`](https://github.com/datarootsio/vesuvius-ink-detection/tree/main/kaggle-github%20connection): This folder contains scripts and information to push you notebooks directly from kaggle into this github repository.
-
 
 
 
