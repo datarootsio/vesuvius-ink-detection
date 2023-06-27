@@ -11,16 +11,22 @@ https://www.notion.so/dataroots/Ink-detection-Challenge-1c3a4b5030244ef99c52dd68
 
 
 
-## Structure
+## Structure <div id="structure"/>
 
-TODO
+[`images`](https://github.com/datarootsio/vesuvius-ink-detection/tree/main/images): Different images used in the README.md.
+
+[`notebooks`](https://github.com/datarootsio/vesuvius-ink-detection/tree/main/notebooks): This folder contains the different notebooks we created for the Ink detection challenge. They are designed to be simple and comprehensible to get used to the ink detection problem and the solution we propose. Feel free to fork the repo and modify some notebooks if you want to try your own solution!
+
+[`kaggle-github connection`](https://github.com/datarootsio/vesuvius-ink-detection/tree/main/kaggle-github%20connection): This folder contains scripts and information to push you notebooks directly from kaggle into this github repository.
+
+
 
 ## Notebooks
 
 A variety of notebooks is provided in the [notebooks folder](notebooks). All of these are adapted from Kaggle notebooks (links to the Kaggle notebooks are provided as well). The easiest way to run these is to run them on Kaggle. If you want to run them either locally or any other remote resource you will first have to set up a compatible environment and download the used datasets.
 (Kaggle docker images are available [here](https://github.com/Kaggle/docker-python) but are very bulky (~45GB) uncompressed and are not compatible with Apple silicon so creating your own python venv might be more advisable, especially for a local setup)
 
-### Downloading datasets
+### Downloading datasets  
 1. Install the kaggle API
 ```
 pip install kaggle
@@ -47,7 +53,7 @@ This notebooks attempts to flatten the papyrus fragments from the [vesuvius-chal
 The notebook use to train the 3D Unet. Basic configuration of the model is done on the ModelConfig class.
 
 
-### Resnet18d inference ([kaggle notebook](TODO))
+### Resnet18d inference ([kaggle notebook](https://www.kaggle.com/code/adriendebray/resnet18d-inference))
 
 This notebook is used to perform inference on any data in the /kaggle/input/vesuvius-challenge-ink-detection/test folder and generate a run-lenght-encoded prediction. This can be used to submit a pretrained model.
 R&D
