@@ -10,7 +10,7 @@ echo "Kernel: " $KERNEL
 echo "Repo: " $REPO
 echo "Kaggle Username: " $KAGGLE_USERNAME
 echo "Github Username: " $GITHUB_USERNAME
-cd ../
+cd ../..
 pwd
 if [ -d $REPO ]   
 then 
@@ -19,6 +19,7 @@ else
     echo "----Clone Repo with SSH key----"
     git clone git@github.com:$GITHUB_USERNAME/$REPO.git
 fi
+cd ./$REPO
 echo "----Downloading Kernel to github repo----"
 #kaggle kernels pull -m $KAGGLE_USERNAME/$KERNEL -p ./$REPO 
 kaggle kernels pull adriendebray/resnet18d-inference -p ./notebooks
