@@ -25,7 +25,6 @@ A variety of notebooks is provided in the [notebooks folder](notebooks). All of 
 (Kaggle docker images are available [here](https://github.com/Kaggle/docker-python) but are very bulky (~45GB) uncompressed and are not compatible with Apple silicon so creating your own python venv might be more advisable, especially for a local setup)
 
 ### Downloading datasets  
-<span style="color:blue">*Not sure what this is usefull for ?*</span>
 1. Install the kaggle API
 ```
 pip install kaggle
