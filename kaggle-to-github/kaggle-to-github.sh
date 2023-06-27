@@ -12,7 +12,6 @@ echo "Repo: " $REPO
 echo "Kaggle Username: " $KAGGLE_USERNAME
 echo "Github Username: " $GITHUB_USERNAME
 cd ../..
-pwd
 if [ -d $REPO ]   
 then 
     echo "Repo already exist"
@@ -21,6 +20,7 @@ else
     git clone git@github.com:$GITHUB_USERNAME/$REPO.git
 fi
 cd ./$REPO
+pwd
 echo "----Downloading Kernel to github repo----"
 kaggle kernels pull $KAGGLE_USERNAME/$KERNEL -p ./notebooks 
 #kaggle kernels pull adriendebray/resnet18d-inference -p ./notebooks
@@ -28,4 +28,3 @@ kaggle kernels pull $KAGGLE_USERNAME/$KERNEL -p ./notebooks
 git stage --all
 git commit -m "Added a new kernel"
 git push
-cd ../kaggle-to-github
