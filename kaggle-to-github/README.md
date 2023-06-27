@@ -9,6 +9,6 @@ If you want to push kaggle kernels to your private repository, you can do this d
 2. Execute the bash scipt specifying your kaggle username and the kernel you want to add to this Github repo
 ``` bash kaggle-to-github.sh {Kaggle Kernel} {Kaggle Username} ```
 
-Example :\
+Example :
 
 ``` bash kaggle-to-github.sh resnet18d-inference adriendebray ```
