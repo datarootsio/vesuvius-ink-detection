@@ -15,17 +15,17 @@ if [ -d $REPO ]   # for file "if [-f /home/rama/file]"
 then 
     echo "Repo already exist"
 else
-    echo "----Pulling Repo with SSH key----"
+    echo "----Clone Repo with SSH key----"
     git clone git@github.com:$GITHUB_USERNAME/$REPO.git
 fi
 echo "----Downloading Kernel to github repo----"
 #kaggle kernels pull -m $KAGGLE_USERNAME/$KERNEL -p ./$REPO 
-kaggle kernels pull adriendebray/Resnet18d_[Inference] -p ./$REPO 
+kaggle kernels pull adriendebray/resnet18d-inference -p ./$REPO/notebooks
 #echo "----Downloading dataset to github repo----"
 #kaggle datasets download -d adriendebray/resnet18 -p ./$REPO/kaggle/input/$KERNEL/ --force  --unzip 
 #result=$(kaggle datasets download $DATASET -p ./$REPO/kaggle/input/$KERNEL/ --force  --unzip )
 #echo $result
-cd ./$REPO
+# cd ./$REPO
 #echo "----Create conda package list----"
 #conda env export -n kaggle -f packages.yml
 
