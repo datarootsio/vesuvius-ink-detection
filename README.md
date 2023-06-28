@@ -8,7 +8,8 @@ The Ink Detection Challenge is a subproblem of the bigger [Vesuvius challenge.](
 
 The Ink Detection Challenge focuses on the detection of ink, based on 3D X-ray scans. Training data for Ink detection training is provided from 3 broken-off fragments of scrolls that where opened physically. As ground truth data, labels where annotated manually for each pixel. To have a broad range of people work and collaborate on this, a [Kaggle competition](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection/overview) was launched.
 
-More information is available on the [notion page](https://www.notion.so/dataroots/Ink-detection-Challenge-1c3a4b5030244ef99c52dd68a25b43b2).
+More information is available on the [notion page](https://www.notion.so/dataroots/Ink-detection-Challenge-1c3a4b5030244ef99c52dd68a25b43b2).  
+Additionally, HPC code for this challenge can be found [here](https://github.com/datarootsio/vesuvius).
 
 
 
