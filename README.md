@@ -49,7 +49,7 @@ This notebook performs basic EDA on the [vesuvius-challenge-ink-detection](https
 
 This notebooks attempts to flatten the papyrus fragments from the [vesuvius-challenge-ink-detection](https://www.kaggle.com/competitions/vesuvius-challenge-ink-detection) dataset. A comparison between different classical CV techniques is performed and code to flatten the fragments, based on a height map generated with the Sobel filter, is provided as well.
 
-### Resnet18d training ([kaggle notebook](TODO))
+### Resnet18d training ([kaggle notebook](https://www.kaggle.com/code/thenoodleninja/resnet18d-training))
 
 The notebook use to train the 3D Unet. Basic configuration of the model and training is done in the ModelConfig class.
 
