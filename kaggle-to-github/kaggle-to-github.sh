@@ -24,7 +24,3 @@ pwd
 echo "----Downloading Kernel to github repo----"
 kaggle kernels pull $KAGGLE_USERNAME/$KERNEL -p ./notebooks 
 #kaggle kernels pull adriendebray/resnet18d-inference -p ./notebooks
-
-git stage --all
-git commit -m "Added a new kernel"
-git push
