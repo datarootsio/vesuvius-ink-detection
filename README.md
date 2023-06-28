@@ -34,8 +34,11 @@ pip install kaggle
 3. Move the downloaded "kaggle.json" to ~/.kaggle/kaggle.json
 4. Download the dataset
 ```
-kaggle competitions download -c vesuvius-challenge-ink-detection # for competition datasets
-kaggle datasets download -d thenoodleninja/vesuvius-flattened # for other datasets
+# example for competition dataset
+kaggle competitions download -c vesuvius-challenge-ink-detection
+
+# example for other datasets
+kaggle datasets download -d thenoodleninja/vesuvius-flattened
 ```
 
 ### EDA notebook ([kaggle notebook](https://www.kaggle.com/code/thenoodleninja/exploratory-data-analysis))
