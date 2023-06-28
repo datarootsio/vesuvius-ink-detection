@@ -1,5 +1,6 @@
 # The Vesuvius Ink detection Challenge 
 
+![papyrus](images/papyrus.gif)
 
 This repository contains scripts, notebooks and code for the Vesuvius ink detection challenge.
 
